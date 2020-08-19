@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ancestry Power User</title>
+    <link rel="stylesheet" type="text/css" href="popup.css" />
+  </head>
+  <body>
+    <div class="header">
+      <img src="images/apu-32x32.png" alt="APU logo"></img>
+      <h1>Ancestry Power User</h1>
+    </div>
+    <div id="contentWrapper">
+      <div class="content innerContent">
+        <h3>Scroll</h3>
+        <p>Enter the number of times to scroll</p>
+        <p><input type="text" id="scrollNumberInput" /></p>
+        <button id="scrollButton">Scroll to the bottom</button>
+      </div>
+      <div class="content innerContent">
+        <h3>Count</h3>
+        <button id="countButton">Get the number of people listed on this page</button>
+      </div>
+      <div class="content innerContent">
+        <h3>Group</h3>
+        <p>Enter the exact group name</p>
+        <p><input type="text" id="groupNameInput" /></p>
+        <button id="markCheckedButton">Add the people on this page to the group</button>
+      </div>
+      <div id="linkDiv">
+        <a href="#" id="clearLogButton">Clear Log</a>
+        <a href="https://github.com/GregLevenhagen/ancestry-power-user/issues" target="blank">Requests & Bugs</a>
+        <a href="https://github.com/GregLevenhagen/ancestry-power-user" target="blank">Docs & Project Site</a>
+      </div>
+    </div>
+    <div id="logDiv" class="content">
+      <h3>Log</h3>
+      <p><textarea readonly id="logOutputTextArea"></textarea></p>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
