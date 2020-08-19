@@ -17,17 +17,12 @@ After you've entered search criteria in the normal way and then scrolled to the 
 
 ## Site walkthrough
 
-After logging in to http://ancestry.com
-
-Browse through the top menu by clicking on DNA -> Your DNA Results Summary. 
-
-Switch to whatever Test you want, if you have multiple. 
-
-Then click on the green View All DNA Matches button on the page. 
-
-At the top of the list, click on the Groups button. Remember the exact name of a group you want to add people. Create a group, if you don't have any groups yet.
-
-From you, you can start using the extension.
+1) After logging in to http://ancestry.com
+1) Browse through the top menu by clicking on DNA -> Your DNA Results Summary. 
+1) Switch to whatever Test you want, if you have multiple. 
+1) Then click on the green View All DNA Matches button on the page.
+1) At the top of the list, click on the Groups button. Remember the exact name of a group you want to add people. Create a group, if you don't have any groups yet.
+1) From there, you can start using the extension.
 
 ## Example Idea
 
