@@ -6,7 +6,7 @@ function getGroupButtonCount() {
 function scrollXTimes(i) {
     setTimeout(function () {
         window.scrollTo(0, document.body.scrollHeight);
-        console.log('apu: scrolling, scrolling, scrolling...keep those doggies scrollin');
+        console.log(`apu: [${i}] scrolling, scrolling, scrolling...keep those doggies scrollin`);
         if (--i) {
             scrollXTimes(i);
         }
