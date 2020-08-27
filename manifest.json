@@ -3,7 +3,6 @@
     "short_name": "Ancestry PU",
     "version": "1.0",
     "author": "Greg Levenhagen",
-    "default_locale": "en",
     "description": "Adds all search results to a specified group.",
     "background": {
         "scripts": ["background.js"],
