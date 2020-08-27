@@ -1,6 +1,6 @@
 // @ts-nocheck
 function getGroupButtonCount() {
-    document.querySelectorAll('button[id^=groupAddBtn]').length;
+    console.log(`group button count [${document.querySelectorAll('button[id^=groupAddBtn]').length}]`);
 }
 
 function scrollXTimes(i) {
