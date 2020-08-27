@@ -1,100 +1,100 @@
 body {
-  width: 680px;
-  background-color: #106c8b;
+    width: 680px;
+    background-color: #106c8b;
 }
 
 #linkDiv {
-  text-align: right;
+    text-align: right;
 }
 
 a {
-  color: #00ffff;
+    color: #00ffff;
 }
 
 .content {
-  background-color: #030e59;
-  border-radius: 0.5em;
+    background-color: #030e59;
+    border-radius: 0.5em;
 }
 
 .innerContent {
-  margin-bottom: 1em;
+    margin-bottom: 1em;
 }
 
 .header img {
-  vertical-align: middle;
-  text-align: center;
-  width: 28px;
-  height: 28px;
-  float: left;
-  margin-left: 6px;
+    vertical-align: middle;
+    text-align: center;
+    width: 28px;
+    height: 28px;
+    float: left;
+    margin-left: 6px;
 }
 
 .header h1 {
-  position: relative;
-  text-align: center;
-  color: #ffffff;
+    position: relative;
+    text-align: center;
+    color: #ffffff;
 }
 
 .content h3 {
-  text-align: left;
-  color: #888888;
-  padding: 6px 0 0 6px;
-  margin: 0px;
+    text-align: left;
+    color: #888888;
+    padding: 6px 0 0 6px;
+    margin: 0px;
 }
 
 .content input {
-  font-size: 1.25em;
+    font-size: 1.25em;
 }
 
 .content button {
-  height: 30px;
-  width: 320px;
-  outline: none;
-  background-color: #00ffff;
-  border-radius: 1em;
-  font-size: 1.25em;
-  margin: 1em;
+    height: 30px;
+    width: 320px;
+    outline: none;
+    background-color: #00ffff;
+    border-radius: 1em;
+    font-size: 1.25em;
+    margin: 1em;
 }
 
 .content button:active {
-  transform: scale(0.98);
-  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+    transform: scale(0.98);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
 }
 
 .content p {
-  font-size: 1.5em;
-  color: #ffffff;
+    font-size: 1.5em;
+    color: #ffffff;
 }
 
 #contentWrapper {
-  height: 560px;
-  text-align: center;
-  float: right;
+    height: 560px;
+    text-align: center;
+    float: right;
 }
 
 #logDiv {
-  height: 530px;
-  width: 320px;
+    height: 530px;
+    width: 320px;
 }
 
 #logDiv textarea {
-  height: 482px;
-  width: 314px;
+    height: 482px;
+    width: 314px;
 }
 
 textarea {
-  overflow: auto;
-  background-color: inherit;
-  color: #dddddd;
-  border: none;
-  outline: none;
-  resize: none;
+    overflow: auto;
+    background-color: inherit;
+    color: #dddddd;
+    border: none;
+    outline: none;
+    resize: none;
 }
 
 textarea::-webkit-scrollbar {
-  background-color: #dddddd;
+    background-color: #dddddd;
 }
 
 textarea::-webkit-scrollbar-thumb {
-  background-color: #00ffff;
+    background-color: #00ffff;
 }

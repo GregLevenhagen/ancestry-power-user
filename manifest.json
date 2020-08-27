@@ -1,27 +1,30 @@
 {
-  "name": "Ancestry Power User",
-  "version": "1.0",
-  "description": "Adds all search results to a specified group.",
-  "background": {
-    "scripts": ["background.js"],
-    "persistent": true
-  },
-  "permissions": ["activeTab", "declarativeContent", "storage"],
-  "page_action": {
-    "default_popup": "popup.html",
-    "default_title": "Ancestry Power User",
-    "default_icon": {
-      "16": "images/apu-16x16.png",
-      "32": "images/apu-32x32.png",
-      "48": "images/apu-48x48.png",
-      "128": "images/apu-128x128.png"
-    }
-  },
-  "icons": {
-    "16": "images/apu-16x16.png",
-    "32": "images/apu-32x32.png",
-    "48": "images/apu-48x48.png",
-    "128": "images/apu-128x128.png"
-  },
-  "manifest_version": 2
+    "name": "Ancestry Power User",
+    "short_name": "Ancestry PU",
+    "version": "1.0",
+    "author": "Greg Levenhagen",
+    "default_locale": "en",
+    "description": "Adds all search results to a specified group.",
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": true
+    },
+    "permissions": ["activeTab", "declarativeContent", "storage"],
+    "page_action": {
+        "default_popup": "popup.html",
+        "default_title": "Ancestry Power User",
+        "default_icon": {
+            "16": "images/apu-16x16.png",
+            "32": "images/apu-32x32.png",
+            "48": "images/apu-48x48.png",
+            "128": "images/apu-128x128.png"
+        }
+    },
+    "icons": {
+        "16": "images/apu-16x16.png",
+        "32": "images/apu-32x32.png",
+        "48": "images/apu-48x48.png",
+        "128": "images/apu-128x128.png"
+    },
+    "manifest_version": 2
 }
