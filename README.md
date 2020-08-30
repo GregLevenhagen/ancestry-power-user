@@ -2,6 +2,11 @@
 
 The project is the source for a browser extension to assist Ancestry.com power users by saving them work and time.
 
+## License
+
+Source [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+Images [![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+
 ## Number of people on the search result page
 
 A button is provided for you to click and get a count of the number of the people in the current search page results.

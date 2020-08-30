@@ -9,6 +9,16 @@ window.addEventListener(`load`, function () {
     initInputElementFromStorage(`scrollNumberInput`, `maximumScrollNumber`);
     initInputElementFromStorage(`groupNameInput`, `groupName`);
     initReadOnlyElementFromStorage(logOutput, `logHistory`);
+
+    var buttons = document.querySelectorAll('button');
+    for (var i = 0; i < buttons.length; i++) {
+        buttons[i].addEventListener('click', trackClick);
+    }
+
+    var links = document.querySelectorAll('a');
+    for (var i = 0; i < links.length; i++) {
+        links[i].addEventListener('click', trackClick);
+    }
 });
 
 scrollBtn.onclick = function (e) {
@@ -132,4 +142,21 @@ chrome.runtime.onConnect.addListener(function (port) {
 function addToLogOutput(message) {
     logOutput.value += `\n` + message;
     logOutput.scrollTop = logOutput.scrollHeight;
+}
+
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', '{{ GOOGLE_ANALYTICS_TRACKING_ID }}']);
+_gaq.push(['_trackPageview']);
+
+(function () {
+    var ga = document.createElement('script');
+    ga.type = 'text/javascript';
+    ga.async = true;
+    ga.src = 'https://ssl.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(ga, s);
+})();
+
+function trackClick(e) {
+    _gaq.push(['_trackEvent', e.target.id, 'clicked']);
 }

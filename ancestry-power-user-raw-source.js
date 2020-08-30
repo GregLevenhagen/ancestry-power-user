@@ -1,6 +1,5 @@
-// @ts-nocheck
 function getGroupButtonCount() {
-    console.log(`group button count [${document.querySelectorAll('button[id^=groupAddBtn]').length}]`);
+    console.log(`apu: group button count [${document.querySelectorAll('button[id^=groupAddBtn]').length}]`);
 }
 
 function scrollXTimes(i) {
@@ -29,10 +28,11 @@ function markTheGroups(labeltitle) {
                         // if not checked, click it to have the site's angular code pick it up and process
                         chkbx.click();
                         ++newlyChecked;
-                        console.log(
-                            `apu: added check - chkbx.checked[${chkbx.checked}] label.title[${label.title}] groupButton.id[${groupButton.id}] index[${index}] newlyChecked[${newlyChecked}]`
-                        );
-                    } else if (index % 100 == 0) {
+                        //console.log(
+                        //    `apu: added check - chkbx.checked[${chkbx.checked}] label.title[${label.title}] groupButton.id[${groupButton.id}] index[${index}] newlyChecked[${newlyChecked}]`
+                        //);
+                    } // else 
+                    if (index % 100 == 0 && index > 1) {
                         console.log(`apu: processed - index[${index}] newlyChecked[${newlyChecked}]`);
                     }
                 });

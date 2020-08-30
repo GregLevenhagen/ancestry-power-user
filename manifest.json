@@ -1,12 +1,13 @@
 {
     "name": "Ancestry Power User",
     "short_name": "Ancestry PU",
-    "version": "1.0",
+    "version": "1.0.0.0",
     "author": "Greg Levenhagen",
     "description": "Adds all search results to a specified group.",
+    "incognito": "split",
     "background": {
         "scripts": ["background.js"],
-        "persistent": true
+        "persistent": false 
     },
     "permissions": ["activeTab", "declarativeContent", "storage"],
     "page_action": {
